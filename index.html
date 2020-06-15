@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myRoomie</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="fixed-top w-100 topNavBar">
+      <a class="siteName float-left ml-3" href="#">myRoomie</a>
+      <button class="navbar-toggler float-right navBtn" type="button">
+        <img src="img/nav.svg" class="navIcon" alt="">
+        <img src="img/close.svg" class="closeBtn" style="display:none;" alt="">
+      </button>
+
+      <div class="collapsed navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="overlay">
+
+      </div>
+    </nav>
+    <section id="home">
+      <div class="landing">
+        <div class="infoBox">
+          <h1>Let's find my flatmate with simliar habits and interests!</h1>
+          <a type="button" name="button" class="moreButton text-uppercase" href="#about">Find More
+            <svg class="bi bi-arrow-right-short" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z"/>
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z"/>
+            </svg>
+          </a>
+          <div class="SNSlogin">
+            <div class="login d-flex">
+              <a href="#"><img src="https://img.icons8.com/color/48/000000/google-logo.png"/></a>
+              <p>Google Account Login</p>
+            </div>
+            <div class="login d-flex">
+              <a href="#"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
+              <p>Facebook Account Login</p>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <img src="img/homeImg.svg" class="mobile-w100" alt="">
+        </div>
+      </div>
+
+    </section>
+    <section id="about">
+      <div class="container">
+        <h1 class="display-4 text-center mb-5 mt-3">What is the <span class="myRoomie"> myRoomie</span> made you easy?</h1>
+        <p class="explain">This site is for matching your flatmate very quick, liking and honesty! <span class="myRoomie"> myRoomie</span> is the software available for campus housing, student apartments, and more. <span class="myRoomie"> myRoomie</span> is accessible on computers and iPhone & Android mobile devices.</p>
+        <div class="cards d-flex row justify-content-around my-5">
+          <div class="card card1" style="width: 16rem;" >
+            <img src="img/Vexels-Office-Alarm-clock.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4>Daily Routine</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card card2" style="width: 16rem;">
+            <img src="img/Vexels-Office-Bulb.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4>Hobby</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card card3" style="width: 16rem;">
+            <img src="img/Vexels-Office-Equalizer.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4>Interests</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card card3" style="width: 16rem;">
+            <img src="img/Vexels-Office-Tea-cup.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4>Drink Taste</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <div class="col-12">
+          <h1 class="text-center display-4 my-5">Contact Us</h1>
+          <form class="comment-form">
+            <div class="row">
+               <div class="col-sm-6 form-group">
+                  <input type="text" class="form-control" placeholder="First Name"/>
+               </div>
+               <div class="col-sm-6 form-group">
+                  <input type="text" class="form-control" placeholder="Last Name" />
+               </div>
+               <div class="col-md-12 form-group">
+                 <input type="email" class="form-control" placeholder="What's your email?"/>
+               </div>
+               <div class="col-md-12 form-group">
+                  <textarea name="" class="form-control" cols="47" rows="10" placeholder="Message"></textarea>
+               </div>
+               <div class="col-md-12 form-group">
+                 <button class="btn btn-block btn-lg btn-success">Submit</button>
+              </div>
+            </div>
+         </form>
+        </div>
+      </div>
+    </section>
+    <div class="footer-copyright">
+      <div class="container text-center my-2">
+      Made by <a href="https://alexsophiekim.github.io/portfolio-v2">Sophie Kim</a>
+      </div>
+    </div>
+
+
+  </body>
+  <!--Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="js/script.js" charset="utf-8"></script>
+</html>
